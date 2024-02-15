@@ -50,7 +50,7 @@ The wireframes for the website are available in the `images` folder.  The wirefr
 
 ### Signup Wireframe
 
-![Signup Wireframe](./images/DFCinemaSignup.png)
+![Signup Wireframe](./images/DFCinemaSignUp.png)
 
 ---
 
