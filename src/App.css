@@ -2,10 +2,12 @@
   box-sizing: border-box;
   margin: 0;
 }
-
 .footer-image{
   display: flex;
   width: 25px;
   height: 25px;
   margin: 3px;
+  
+.logo {
+  width: 30px;
 }
