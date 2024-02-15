@@ -21,11 +21,14 @@
   "width" 100;
 }
 
-.footer-image{
+.footer-image {
+  display: flex;
   width: 25px;
   height: 25px;
   margin: 2px;
 }
+
+/* HEADER */
 
 .logo {
   width: 30px;
@@ -61,3 +64,27 @@
   margin: 10px;
 }
 
+/* SIGNUP PAGE */
+
+.signup-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.right-side,
+.left-side {
+  flex: 1;
+}
+
+.left-side {
+}
+
+.right-side {
+  margin-right: 2%;
+}
+
+.signup-img {
+  width: 90%;
+  margin: 2%;
+}
