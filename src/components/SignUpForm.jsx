@@ -31,9 +31,9 @@ const SignUpForm = () => {
       email: validateEmail(userForm.email),
     });
 
-    if (Object.values(formValid).every(Boolean) && Object.values(userForm).every(Boolean)) {
-      setDisabled(false);
-    } else setDisabled(true);
+    setDisabled(
+      !(Object.values(formValid).every(Boolean) && Object.values(userForm).every(Boolean))
+    );
   };
 
   return (
