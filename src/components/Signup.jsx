@@ -1,13 +1,13 @@
-import React from "react";
 import SignUpMedia from "./SignUpMedia";
 import SignUpForm from "./SignUpForm";
 
 const Signup = () => {
   return (
-    <div className="signup-container">
+    <div className="signup-container container">
       <SignUpMedia />
       <SignUpForm />
     </div>
+    
   );
 };
 
