@@ -2,23 +2,62 @@
   box-sizing: border-box;
   margin: 0;
 }
+*
+
+.carousel-text .image, .whatson img {
+  border: 5px solid black;
+}
+
+.carousel-text h3, .carousel-text p{
+  text-shadow: 0 0 5px #000000, 0 0 5px #000000;
+  }
+
+.whats-on-text{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+  "width" 100;
+}
 
 .footer-image{
   width: 25px;
   height: 25px;
-  margin: 3px;
+  margin: 2px;
 }
 
 .logo {
   width: 30px;
 }
 
+.whats-on-image{
+  height: 300px;
+  overflow:hidden;
+
+}
+
 .film-image{
-  width: 600px;
-  height: 200px;
+  width: 1300px;
+  height: 400px;
   margin: 10px;
 }
 
 .middle-text{
+  padding-top: 150px;
+  text-align: center;
   padding-right: 800px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
 }
+
+.image{
+  width: 1600px;
+  height: 500px;
+  margin: 10px;
+}
+
