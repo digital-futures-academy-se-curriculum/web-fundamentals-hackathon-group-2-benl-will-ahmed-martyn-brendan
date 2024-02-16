@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* HEADER */
+
+.logo {
+  width: 30px;
+  filter: invert(1);
+}
+
+/* FOOTER */
+
+.footer-image {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  margin: 0 0.5%;
+}
+
+/* WHAT'S ON PAGE */
+
+.whats-on-image {
+  height: 300px;
+  overflow: hidden;
+}
+
+.cinema-image {
+  width: 100%;
+  height: 500px;
+  margin: 10px;
+}
+
+.film-image {
+  width: 90%;
+  margin: 2%;
+  height: auto;
+  border-radius: 2%;
+  box-shadow: 5px 5px 30px #000000;
+}
+
+.middle-text {
+  padding-top: 150px;
+  text-align: center;
+  padding-right: 800px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "width" 100;
+}
+
+.image {
+  width: 100%;
+  height: 500px;
+  margin: 10px;
+}
+
+.carousel-container, .cinema-image {
+  border: 5px solid black;
+}
+
+.carousel-container h3,
+.carousel-container p {
+  text-shadow: 0 0 5px #000000, 0 0 5px #000000;
+}
+
+.whats-on-text {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "width" 100;
+}
+
+/* SIGNUP PAGE */
+
+.signup-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.right-side,
+.left-side {
+  flex: 1;
+}
+
+.right-side {
+  margin-right: 2%;
+}
+
+.signup-img {
+  width: 90%;
+  margin: 2%;
+}
