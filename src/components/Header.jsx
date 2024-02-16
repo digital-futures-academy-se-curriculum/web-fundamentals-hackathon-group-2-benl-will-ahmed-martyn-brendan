@@ -8,7 +8,7 @@ function Header() {
         <Navbar bg='dark' data-bs-theme="dark" expand="lg" className="bg-body-tertiary">
             <Container>
                 <Navbar.Brand href="/">
-                    <img src={logo} alt="" className="logo" />
+                    <img src={logo} alt="cinema-logo" className="logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

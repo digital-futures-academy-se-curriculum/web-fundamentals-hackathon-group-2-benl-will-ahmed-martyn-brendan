@@ -3,41 +3,44 @@
   margin: 0;
 }
 
+/* HEADER */
+
+.logo {
+  width: 30px;
+  filter: invert(1);
+}
+
+/* FOOTER */
 
 .footer-image {
   display: flex;
   width: 25px;
   height: 25px;
-  margin: 2px;
-}
-
-/* HEADER */
-
-.logo {
-  width: 30px;
+  margin: 0 0.5%;
 }
 
 /* WHAT'S ON PAGE */
 
-.whats-on-image{
+.whats-on-image {
   height: 300px;
-  overflow:hidden;
-
+  overflow: hidden;
 }
 
-.cinema-image{
+.cinema-image {
   width: 100%;
   height: 500px;
   margin: 10px;
 }
 
-.film-image{
-  width: 100%;
+.film-image {
+  width: 90%;
+  margin: 2%;
   height: auto;
-  margin: 10px;
+  border-radius: 2%;
+  box-shadow: 5px 5px 30px #000000;
 }
 
-.middle-text{
+.middle-text {
   padding-top: 150px;
   text-align: center;
   padding-right: 800px;
@@ -45,32 +48,30 @@
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-variation-settings:
-    "width" 100;
+  font-variation-settings: "width" 100;
 }
 
-.image{
-  width: 1600px;
+.image {
+  width: 100%;
   height: 500px;
   margin: 10px;
 }
 
-
-.carousel-text .image, .whatson img {
+.carousel-container, .cinema-image {
   border: 5px solid black;
 }
 
-.carousel-text h3, .carousel-text p{
+.carousel-container h3,
+.carousel-container p {
   text-shadow: 0 0 5px #000000, 0 0 5px #000000;
-  }
+}
 
-.whats-on-text{
+.whats-on-text {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-variation-settings:
-  "width" 100;
+  font-variation-settings: "width" 100;
 }
 
 /* SIGNUP PAGE */

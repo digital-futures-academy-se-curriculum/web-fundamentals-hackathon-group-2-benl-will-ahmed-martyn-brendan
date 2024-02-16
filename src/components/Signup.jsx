@@ -7,7 +7,6 @@ const Signup = () => {
       <SignUpMedia />
       <SignUpForm />
     </div>
-    
   );
 };
 
